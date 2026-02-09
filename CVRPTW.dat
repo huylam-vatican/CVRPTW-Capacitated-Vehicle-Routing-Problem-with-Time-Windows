@@ -1,0 +1,13 @@
+i = 17;
+j = 17;
+cost = 16000;
+Q = 675;
+nbtruck = 3;
+
+SheetConnection my_sheet("CVRPTW_ProjectData.xlsx");
+c from SheetRead (my_sheet, "'CVRPTW_ProjectData'!B3:S20");
+t from SheetRead (my_sheet, "'CVRPTW_ProjectData'!B26:S43");
+st from SheetRead (my_sheet, "'CVRPTW_ProjectData'!AB26:AB43");
+a from SheetRead (my_sheet, "'CVRPTW_ProjectData'!W26:W43");
+b from SheetRead (my_sheet, "'CVRPTW_ProjectData'!X26:X43");
+d from SheetRead (my_sheet, "'CVRPTW_ProjectData'!W2:W19");
